@@ -933,7 +933,7 @@ export default function ESP32Flasher() {
                           <Bluetooth className="h-5 w-5 text-white" />
                         )}
                         <span className="text-xs font-medium text-white">BLE</span>
-                        <span className="text-xs text-gray-300">Bluetooth</span>
+                        <span className="text-xs text-gray-300">Wireless</span>
                         {isLoadingDefaults && (
                           <span className="text-xs text-gray-400 mt-1">Loading...</span>
                         )}
