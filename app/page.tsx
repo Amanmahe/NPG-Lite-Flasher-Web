@@ -1372,7 +1372,7 @@ export default function ESP32Flasher() {
           </div>
         </div>
       )}
-      <AppTour autoStart={false} />
+      <AppTour autoStart={true} />
     </div>
   );
 }

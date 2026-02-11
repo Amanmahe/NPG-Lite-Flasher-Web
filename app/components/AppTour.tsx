@@ -16,7 +16,7 @@ export function AppTour({ autoStart = false }: AppTourProps) {
         element: '.connection-section',
         popover: {
           title: '🔌 Device Connection',
-          description: 'Start by connecting your ESP32 device. Click "Connect Device" and select the correct COM port when prompted.',
+          description: 'Start by connecting your NPG Lite device or ESP32 device. Click "Connect Device" and select the correct COM port when prompted.',
           side: 'bottom' as const,
           align: 'start' as const,
         },
