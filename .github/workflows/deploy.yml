@@ -84,6 +84,8 @@ jobs:
           path: ./out
 # Deployment job
   deploy:
+    # Pushes from any branch deploy; pull requests only build, as a check.
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

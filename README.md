@@ -111,7 +111,7 @@ GitHub release downloads don't allow requests from other websites (no CORS heade
 
 ### Deployment
 
-Every push to a branch other than `dev` builds the site and publishes it to GitHub Pages using `.github/workflows/deploy.yml`.
+`.github/workflows/deploy.yml` builds the site on every push and pull request, except on the `dev` branch. Pushes from any of those branches are published to GitHub Pages, so the latest push is what the live site shows. Pull requests only build.
 
 ## Contributing
 
